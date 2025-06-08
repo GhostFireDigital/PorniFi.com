@@ -6,7 +6,7 @@ PorniFi is a Web3-native protocol and platform designed to redefine the adult in
 ---
 
 ### 🔥 Live Preview  
-Visit the live landing page: [https://pornifi.com}
+Visit the live landing page: [https://pornifi-com.netlify.app}
 
 ---
 
