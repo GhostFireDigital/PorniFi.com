@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GhostFire Digital</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/x-icon-orange.png" />
+</head>
+<body>
+
+<header class="site-header glow-nav">
+  <div class="nav-container">
+    <!-- 🔺 X Logo (Upper Left) -->
+    <a href="index.html" class="nav-x-logo" title="Enter the X Chambers">
+      <img src="images/ghostfire-xstylewhite-logo.png" alt="X Logo" style="height: 24px; vertical-align: middle;">
+    </a>
+
+    <!-- 🔗 Navigation Tabs -->
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="protocols.html">Protocols</a>
+      <a href="ghostlabs.html">GhostLabs</a>
+      <a href="vault.html">Vault</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="build.html">Build With Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- 🔥 HERO SECTION -->
+<div class="hero-fullscreen">
+  <img src="images/ghostfire-logo-main.png" alt="GhostFire Digital Logo" class="hero-logo" />
+  <h1 class="hero-title">Ignite the Future of AI with GhostFire Digital</h1>
+  <p class="hero-subtitle">Igniting Modular Sovereignty Across AI and Web3</p>
+  <div class="cta-group">
+    <a href="contact.html#partner" class="cta-button hero-cta">Partner</a>
+    <a href="contact.html#invest" class="cta-button hero-cta">Invest</a>
+    <a href="contact.html#build" class="cta-button hero-cta">Build</a>
+  </div>
+</div>
+
+<!-- ⚡️ FOOTER -->
+<footer class="footer">
+  <div class="footer-icons">
+    <a href="https://x.com/GhostFireAI" target="_blank" rel="noopener noreferrer">
+      <img src="images/x-icon-orange.png" alt="Twitter" class="social-icon" />
+    </a>
+    <a href="https://linkedin.com/in/ghostfiredigital" target="_blank" rel="noopener noreferrer">
+      <img src="images/linkedin-icon.png" alt="LinkedIn" class="social-icon" />
+    </a>
+  </div>
+  <p class="footer-slogan">🔥 <span>In Fire We Trust.</span></p>
+  <p class="copyright">© 2025 GhostFire Digital</p>
+  <div class="footer-logo-wrapper">
+    <img src="images/ghostfire-mini-logo.png" alt="GhostFire Mini Logo" class="footer-mini-logo" />
+  </div>
+</footer>
+
+<!-- 🧠 Fade-in Sticky Logo Scroll Logic -->
+<script>
+  window.addEventListener('scroll', () => {
+    const logo = document.querySelector('.sticky-logo');
+    if (window.scrollY > 100) {
+      logo.classList.add('visible');
+    } else {
+      logo.classList.remove('visible');
+    }
+  });
+</script>
+
+</body>
+</html>
